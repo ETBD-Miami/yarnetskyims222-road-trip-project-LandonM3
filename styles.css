@@ -33,3 +33,12 @@ text-align: center;
 text-decoration: none;
 border-radis: 10px;
  }
+ @media screen and (max-width: 650px) {
+    nav ul {
+        flex-direction: column;
+        padding: 0 20px;
+        }
+    nav ul li {
+      margin:10px 0;
+      }
+  }
