@@ -16,7 +16,7 @@ h2{ color: antiquewhite;
     .container{ max-width: 960px; 
     margin:1em auto 1em auto;
  }
- img{ width: 50%;
+ img{ width: 70%;
     height: auto;
 }
 nav ul{ display: flex;
