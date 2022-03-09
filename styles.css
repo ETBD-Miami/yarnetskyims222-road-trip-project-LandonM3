@@ -31,7 +31,7 @@ background-color: maroon;
 color: white;
 text-align: center;
 text-decoration: none;
-border-radis: 10px;
+border-radius: 10px;
  }
  @media screen and (max-width: 650px) {
     nav ul {
