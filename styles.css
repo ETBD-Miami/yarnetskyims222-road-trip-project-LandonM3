@@ -19,3 +19,17 @@ h2{ color: antiquewhite;
  img{ width: 100%;
     height: auto;
 }
+nav ul{ display: flex;
+flex-direction: row; 
+padding: 0px;}
+nav ul li{ flex: 1; list-style-type: none;
+}
+nav ul li a{ display: block; 
+padding: 0.75em; 
+margin: 0.25em;
+background-color: maroon;
+color: white;
+text-align: center;
+text-decoration: none;
+border-radis: 10px;
+ }
