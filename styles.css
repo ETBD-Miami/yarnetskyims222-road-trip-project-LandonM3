@@ -14,7 +14,7 @@ h2{ color: maroon;
     background-color: white; 
     font-size: large; 
     font-family: 'Times New Roman', Times, serif;
-text-size: large;}
+font-size: large;}
     .container{ max-width: 960px; 
     margin:1em auto 1em auto;}
  }
