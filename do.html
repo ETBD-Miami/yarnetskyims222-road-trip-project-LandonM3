@@ -57,10 +57,19 @@
 <p>Located in the heart of downtown Richmond, Millstone Park provides a history of the milling history in Richmond. The Park provides a walk through of many mills and a mural. The first anuanl Millstone festival was hosted in downtown Richmond to celebrate the history of Richmond and bring the community together. </p>
      <img src= "/images/millstone.jpg"alt="millstone mural"/>
 </div>
-</footer> 
 </main>
+</body>
+</html>
 <script>
-var acc = document.getElementsByClassName("accordion");
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+<script>
+    var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
@@ -78,36 +87,5 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
-
-<script>
-    <style>
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-</style>
-
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });
-}
 </script>
 
-<script>
-   
-
-</body> </html>
