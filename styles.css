@@ -25,6 +25,8 @@ margin: 1em auto 1em auto;
 }
  img{ width: 75%;
     height: auto;
+    padding: 25px;
+
 }
 nav ul{ display: flex;
 flex-direction: row; 
