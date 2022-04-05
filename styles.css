@@ -1,0 +1,97 @@
+h1{ background-color: maroon; 
+    color: whitesmoke; 
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif; 
+    border: 1px; padding: 10px 10px 10px 10px; 
+    margin: 10px 10px 10px 10px; }
+p{ color: maroon;
+  font-family: Arial, Helvetica, sans-serif;
+    background-color:white; 
+    border: 1px; 
+    padding: 10px 10px 10px 10px; 
+    margin: 10px 10px 10px 10px;
+font-size: medium;  }
+h2{ color: maroon; 
+    background-color: white; 
+    font-size: large; 
+    font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;}
+
+    .container{ max-width: 960px; 
+    margin:1em auto 1em auto;}
+ 
+ h3{ color: maroon;
+background-color: white;
+font-size: larger;
+font-family: Arial, Helvetica, sans-serif;
+padding: 10px 10px 10px;
+margin: 1em auto 1em auto;
+}
+ img{ width: 75%;
+    height: auto;
+    padding: 25px 50px;
+
+}
+nav ul{ display: flex;
+flex-direction: row; 
+padding: 0px;}
+nav ul li{ flex: 1; list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li a{ display: block; 
+padding: 0.75em; 
+margin: 0.25em;
+background-color: maroon;
+color: white;
+text-align: center;
+text-decoration: none;
+border-radius: 10px;
+ }
+ @media screen and (max-width: 650px) {
+    nav ul {
+        flex-direction: column;
+        padding: 0 20px;
+        }
+    nav ul li {
+      margin:10px 0;
+      }
+  }
+  a{ color: maroon}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  iframe{ padding: 10%
+  }
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
