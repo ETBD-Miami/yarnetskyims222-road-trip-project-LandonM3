@@ -1,7 +1,7 @@
 h1{ background-color: maroon; 
     color: whitesmoke; 
     font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif; 
     border: 1px; padding: 10px 10px 10px 10px; 
     margin: 10px 10px 10px 10px; }
 p{ color:antiquewhite; 
